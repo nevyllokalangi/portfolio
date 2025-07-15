@@ -1,0 +1,1387 @@
+[30-Jun-2025 12:34:00 UTC] Login Debug - User ID: 1
+[30-Jun-2025 12:34:00 UTC] Login Debug - Username: admin
+[30-Jun-2025 12:34:00 UTC] Login Debug - Role: admin
+[30-Jun-2025 12:34:00 UTC] Login Debug - Session Role: admin
+[30-Jun-2025 12:34:00 UTC] Debug - User ID: 1
+[30-Jun-2025 12:34:00 UTC] Debug - User Role: admin
+[30-Jun-2025 12:34:00 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:34:00 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:34:00 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:34:00 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:34:05 UTC] Debug - User ID: 1
+[30-Jun-2025 12:34:05 UTC] Debug - User Role: admin
+[30-Jun-2025 12:34:05 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:34:05 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:34:05 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:34:05 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:34:08 UTC] Debug - User ID: 1
+[30-Jun-2025 12:34:08 UTC] Debug - User Role: admin
+[30-Jun-2025 12:34:08 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:34:08 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:34:08 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:34:08 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:34:11 UTC] Debug - User ID: 1
+[30-Jun-2025 12:34:11 UTC] Debug - User Role: admin
+[30-Jun-2025 12:34:11 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:34:11 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:34:11 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:34:11 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:48:15 UTC] Debug - User ID: 1
+[30-Jun-2025 12:48:15 UTC] Debug - User Role: admin
+[30-Jun-2025 12:48:15 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:48:15 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:48:15 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:48:15 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:48:16 UTC] Debug - User ID: 1
+[30-Jun-2025 12:48:16 UTC] Debug - User Role: admin
+[30-Jun-2025 12:48:16 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:48:16 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:48:16 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:48:16 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:48:18 UTC] Debug - User ID: 1
+[30-Jun-2025 12:48:18 UTC] Debug - User Role: admin
+[30-Jun-2025 12:48:18 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:48:18 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:48:18 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:48:18 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:48:24 UTC] Debug - User ID: 1
+[30-Jun-2025 12:48:24 UTC] Debug - User Role: admin
+[30-Jun-2025 12:48:24 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:48:24 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:48:24 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:48:24 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:48:30 UTC] Debug - User ID: 1
+[30-Jun-2025 12:48:30 UTC] Debug - User Role: admin
+[30-Jun-2025 12:48:30 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:48:30 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:48:30 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:48:30 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:49:33 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:33 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:33 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:33 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:33 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:49:33 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:49:38 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:38 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:38 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:38 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:38 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:38 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:38 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:38 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:38 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:49:38 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:49:50 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:50 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:50 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:50 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:50 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:50 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:50 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:50 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:50 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:49:50 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:49:56 UTC] Debug - User ID: 1
+[30-Jun-2025 12:49:56 UTC] Debug - User Role: admin
+[30-Jun-2025 12:49:56 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:49:56 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:49:56 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:49:56 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:50:05 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:05 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:05 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:05 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:05 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:50:05 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:50:06 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:06 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:06 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:06 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:06 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:50:06 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:50:09 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:09 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:09 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:09 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:09 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:50:09 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:50:12 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:12 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:12 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:12 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:12 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:12 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:12 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:12 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:12 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:50:12 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:50:46 UTC] Debug - User ID: 1
+[30-Jun-2025 12:50:46 UTC] Debug - User Role: admin
+[30-Jun-2025 12:50:46 UTC] Debug - Required Role: admin
+[30-Jun-2025 12:50:46 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 12:50:46 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 12:50:46 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 12:52:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:37 UTC] PHP Warning:  Undefined variable $db in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:38 UTC] PHP Warning:  Undefined variable $db in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:38 UTC] PHP Warning:  Undefined variable $db in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:41 UTC] PHP Warning:  Undefined variable $db in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:52:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:57:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_DSN" in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "date" in V:\XAMPP\htdocs\app\views\pages\project.php on line 30
+[30-Jun-2025 13:04:57 UTC] PHP Warning:  Undefined array key "excerpt" in V:\XAMPP\htdocs\app\views\pages\project.php on line 34
+[30-Jun-2025 13:09:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'order clause' in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 V:\XAMPP\htdocs\app\views\pages\project.php(7): PDO->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 13:11:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'order clause' in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 V:\XAMPP\htdocs\app\views\pages\project.php(7): PDO->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 13:11:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'order clause' in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 V:\XAMPP\htdocs\app\views\pages\project.php(7): PDO->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 13:11:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'order clause' in V:\XAMPP\htdocs\app\views\pages\project.php:7
+Stack trace:
+#0 V:\XAMPP\htdocs\app\views\pages\project.php(7): PDO->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in V:\XAMPP\htdocs\app\views\pages\project.php on line 7
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:11:39 UTC] PHP Warning:  Undefined array key "author_avatars" in V:\XAMPP\htdocs\app\views\pages\project.php on line 26
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:12:21 UTC] PHP Warning:  Undefined array key "author_names" in V:\XAMPP\htdocs\app\views\pages\project.php on line 25
+[30-Jun-2025 13:39:48 UTC] Login Debug - User ID: 1
+[30-Jun-2025 13:39:48 UTC] Login Debug - Username: admin
+[30-Jun-2025 13:39:48 UTC] Login Debug - Role: admin
+[30-Jun-2025 13:39:48 UTC] Login Debug - Session Role: admin
+[30-Jun-2025 13:39:48 UTC] Debug - User ID: 1
+[30-Jun-2025 13:39:48 UTC] Debug - User Role: admin
+[30-Jun-2025 13:39:48 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:39:48 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:39:48 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:39:48 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:46:48 UTC] Debug - User ID: 1
+[30-Jun-2025 13:46:48 UTC] Debug - User Role: admin
+[30-Jun-2025 13:46:48 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:46:48 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:46:48 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:46:48 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:20 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:20 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:20 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:20 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:20 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:20 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:24 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:24 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:24 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:24 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:24 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:24 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:32 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:32 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:32 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:32 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:32 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:32 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:39 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:39 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:39 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:39 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:39 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:39 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:43 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:43 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:43 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:43 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:43 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:43 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:48 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:48 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:48 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:48 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:48 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:48 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:51 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:51 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:51 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:51 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:51 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:51 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:54 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:54 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:54 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:54 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:54 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:54 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:55:59 UTC] Debug - User ID: 1
+[30-Jun-2025 13:55:59 UTC] Debug - User Role: admin
+[30-Jun-2025 13:55:59 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:55:59 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:55:59 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:55:59 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:04 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:04 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:04 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:04 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:04 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:04 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:09 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:09 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:09 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:09 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:09 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:09 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:11 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:11 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:11 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:11 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:11 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:11 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:13 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:13 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:13 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:13 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:13 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:13 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:15 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:15 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:15 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:15 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:15 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:15 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:19 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:19 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:19 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:19 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:19 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:19 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:23 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:23 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:23 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:23 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:23 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:23 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:26 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:26 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:26 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:26 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:26 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:26 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:29 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:29 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:29 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:29 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:29 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:29 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:32 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:32 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:32 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:32 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:32 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:32 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:34 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:34 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:34 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:34 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:34 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:34 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 13:56:39 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:39 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:39 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:39 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:39 UTC] Debug - User ID: 1
+[30-Jun-2025 13:56:39 UTC] Debug - User Role: admin
+[30-Jun-2025 13:56:39 UTC] Debug - Required Role: admin
+[30-Jun-2025 13:56:39 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 13:56:39 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 13:56:39 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:24:58 UTC] Debug - User ID: 1
+[30-Jun-2025 14:24:58 UTC] Debug - User Role: admin
+[30-Jun-2025 14:24:58 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:24:58 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:24:58 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:25:03 UTC] Debug - User ID: 1
+[30-Jun-2025 14:25:03 UTC] Debug - User Role: admin
+[30-Jun-2025 14:25:03 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:25:03 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:25:03 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 14:25:03 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:25:25 UTC] Debug - User ID: 1
+[30-Jun-2025 14:25:25 UTC] Debug - User Role: admin
+[30-Jun-2025 14:25:25 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:25:25 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:25:25 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:12 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:12 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:12 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:12 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:12 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:20 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:20 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:20 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:20 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:20 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:28 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:28 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:28 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:28 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:28 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:39 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:39 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:39 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:39 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:39 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:43 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:43 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:43 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:43 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:43 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:26:57 UTC] Debug - User ID: 1
+[30-Jun-2025 14:26:57 UTC] Debug - User Role: admin
+[30-Jun-2025 14:26:57 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:26:57 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:26:57 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:27:22 UTC] Debug - User ID: 1
+[30-Jun-2025 14:27:22 UTC] Debug - User Role: admin
+[30-Jun-2025 14:27:22 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:27:22 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:27:22 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:27:39 UTC] Debug - User ID: 1
+[30-Jun-2025 14:27:39 UTC] Debug - User Role: admin
+[30-Jun-2025 14:27:39 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:27:39 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:27:39 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:27:48 UTC] Debug - User ID: 1
+[30-Jun-2025 14:27:48 UTC] Debug - User Role: admin
+[30-Jun-2025 14:27:48 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:27:48 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:27:48 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:27:58 UTC] Debug - User ID: 1
+[30-Jun-2025 14:27:58 UTC] Debug - User Role: admin
+[30-Jun-2025 14:27:58 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:27:58 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:27:58 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:10 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:10 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:10 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:10 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:10 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:16 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:16 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:16 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:16 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:16 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:16 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:16 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:16 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:16 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:17 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:17 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:17 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:17 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:17 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:17 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:17 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:17 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:17 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:18 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:18 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:18 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:18 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:18 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:18 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:18 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:18 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:18 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:21 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:21 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:21 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:21 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:21 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:21 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:21 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:21 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:21 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:47 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:47 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:47 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:47 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:47 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:28:57 UTC] Debug - User ID: 1
+[30-Jun-2025 14:28:57 UTC] Debug - User Role: admin
+[30-Jun-2025 14:28:57 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:28:57 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:28:57 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:29:02 UTC] Debug - User ID: 1
+[30-Jun-2025 14:29:02 UTC] Debug - User Role: admin
+[30-Jun-2025 14:29:02 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:29:02 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:29:02 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:29:09 UTC] Debug - User ID: 1
+[30-Jun-2025 14:29:09 UTC] Debug - User Role: admin
+[30-Jun-2025 14:29:09 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:29:09 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:29:09 UTC] Debug - User ID: 1
+[30-Jun-2025 14:29:09 UTC] Debug - User Role: admin
+[30-Jun-2025 14:29:09 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:29:09 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:29:09 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:29:10 UTC] Debug - User ID: 1
+[30-Jun-2025 14:29:10 UTC] Debug - User Role: admin
+[30-Jun-2025 14:29:10 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:29:10 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:29:10 UTC] Debug - User ID: 1
+[30-Jun-2025 14:29:10 UTC] Debug - User Role: admin
+[30-Jun-2025 14:29:10 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:29:10 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:29:10 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:30:35 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:35 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:35 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:35 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:37 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:37 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:37 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:37 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:37 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:30:40 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:40 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:40 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:40 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:40 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:30:42 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:42 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:42 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:42 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:42 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:42 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:42 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:42 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:42 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:30:46 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:46 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:46 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:46 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:46 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:30:52 UTC] Debug - User ID: 1
+[30-Jun-2025 14:30:52 UTC] Debug - User Role: admin
+[30-Jun-2025 14:30:52 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:30:52 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:30:52 UTC] PHP Warning:  Undefined variable $pageCSS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 24
+[30-Jun-2025 14:30:52 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[30-Jun-2025 14:34:32 UTC] Debug - User ID: 1
+[30-Jun-2025 14:34:32 UTC] Debug - User Role: admin
+[30-Jun-2025 14:34:32 UTC] Debug - Required Role: admin
+[30-Jun-2025 14:34:32 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[30-Jun-2025 14:34:32 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:34:28 UTC] Login Debug - User ID: 1
+[01-Jul-2025 16:34:28 UTC] Login Debug - Username: admin
+[01-Jul-2025 16:34:28 UTC] Login Debug - Role: admin
+[01-Jul-2025 16:34:28 UTC] Login Debug - Session Role: admin
+[01-Jul-2025 16:34:28 UTC] Debug - User ID: 1
+[01-Jul-2025 16:34:28 UTC] Debug - User Role: admin
+[01-Jul-2025 16:34:28 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:34:28 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:34:28 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:41:32 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:32 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:32 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:32 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:32 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:41:38 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:38 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:38 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:38 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:38 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:38 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:38 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:38 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:38 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:41:40 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:40 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:40 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:40 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:40 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:40 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:40 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:40 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:40 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:41:42 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:42 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:42 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:42 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:42 UTC] Debug - User ID: 1
+[01-Jul-2025 16:41:42 UTC] Debug - User Role: admin
+[01-Jul-2025 16:41:42 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:41:42 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:41:42 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:42:09 UTC] Debug - User ID: 1
+[01-Jul-2025 16:42:09 UTC] Debug - User Role: admin
+[01-Jul-2025 16:42:09 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:42:09 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:42:09 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:42:24 UTC] Debug - User ID: 1
+[01-Jul-2025 16:42:24 UTC] Debug - User Role: admin
+[01-Jul-2025 16:42:24 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:42:24 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:42:24 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 16:42:53 UTC] Debug - User ID: 1
+[01-Jul-2025 16:42:53 UTC] Debug - User Role: admin
+[01-Jul-2025 16:42:53 UTC] Debug - Required Role: admin
+[01-Jul-2025 16:42:53 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 16:42:53 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 19:29:41 UTC] Login Debug - User ID: 1
+[01-Jul-2025 19:29:41 UTC] Login Debug - Username: admin
+[01-Jul-2025 19:29:41 UTC] Login Debug - Role: admin
+[01-Jul-2025 19:29:41 UTC] Login Debug - Session Role: admin
+[01-Jul-2025 19:29:41 UTC] Debug - User ID: 1
+[01-Jul-2025 19:29:41 UTC] Debug - User Role: admin
+[01-Jul-2025 19:29:41 UTC] Debug - Required Role: admin
+[01-Jul-2025 19:29:41 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 19:29:41 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 19:29:57 UTC] Debug - User ID: 1
+[01-Jul-2025 19:29:57 UTC] Debug - User Role: admin
+[01-Jul-2025 19:29:57 UTC] Debug - Required Role: admin
+[01-Jul-2025 19:29:57 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 19:29:57 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 19:30:00 UTC] Debug - User ID: 1
+[01-Jul-2025 19:30:00 UTC] Debug - User Role: admin
+[01-Jul-2025 19:30:00 UTC] Debug - Required Role: admin
+[01-Jul-2025 19:30:00 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 19:30:00 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 19:33:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in V:\XAMPP\htdocs\app\views\auth\logout.php on line 5
+[01-Jul-2025 19:34:14 UTC] Login Debug - User ID: 1
+[01-Jul-2025 19:34:14 UTC] Login Debug - Username: admin
+[01-Jul-2025 19:34:14 UTC] Login Debug - Role: admin
+[01-Jul-2025 19:34:14 UTC] Login Debug - Session Role: admin
+[01-Jul-2025 19:34:14 UTC] Debug - User ID: 1
+[01-Jul-2025 19:34:14 UTC] Debug - User Role: admin
+[01-Jul-2025 19:34:14 UTC] Debug - Required Role: admin
+[01-Jul-2025 19:34:14 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 19:34:14 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
+[01-Jul-2025 19:34:55 UTC] Debug - User ID: 1
+[01-Jul-2025 19:34:55 UTC] Debug - User Role: admin
+[01-Jul-2025 19:34:55 UTC] Debug - Required Role: admin
+[01-Jul-2025 19:34:55 UTC] Debug - Role Hierarchy: Array
+(
+    [basic] => 1
+    [editor] => 2
+    [maintenance] => 3
+    [admin] => 4
+)
+
+[01-Jul-2025 19:34:55 UTC] PHP Warning:  Undefined variable $pageJS in V:\XAMPP\htdocs\app\views\layouts\adminlayout.php on line 25
