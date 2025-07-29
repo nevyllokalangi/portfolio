@@ -4,6 +4,11 @@ $pageTitle = 'Blog';
 $pageCSS = '/public/css/blog.css';
 
 ob_start();
+require_login();
+if (!in_array($_SESSION['role'] ?? '', [ROLE_EDITOR, ROLE_ADMIN])) {
+  header('HTTP/1.0 403 Forbidden');
+  exit('Access denied: Only editors and admins can access this page.');
+}
 ?>
 <!-- Content Start -->
 <main class="content">

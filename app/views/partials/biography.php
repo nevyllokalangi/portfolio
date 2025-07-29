@@ -51,7 +51,7 @@
 <style>
   /* Biography Timeline */
   .biography-section {
-    padding: 100px 0;
+    padding-top: 100px;
   }
 
   .biography-timeline {
