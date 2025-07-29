@@ -44,7 +44,6 @@ try {
   echo "<h2>Role Constants:</h2>";
   echo "<p>ROLE_BASIC: " . ROLE_BASIC . "</p>";
   echo "<p>ROLE_EDITOR: " . ROLE_EDITOR . "</p>";
-  echo "<p>ROLE_MAINTENANCE: " . ROLE_MAINTENANCE . "</p>";
   echo "<p>ROLE_ADMIN: " . ROLE_ADMIN . "</p>";
 
   echo "<h2>Role Hierarchy:</h2>";

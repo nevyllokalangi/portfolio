@@ -7,7 +7,6 @@ RewriteRule ^home$ app/views/pages/home.php
 RewriteRule ^about$ app/views/pages/about.php
 RewriteRule ^project$ app/views/pages/project.php
 RewriteRule ^contact$ app/views/pages/contact.php
-RewriteRule ^gallery$ app/views/pages/gallery.php
 
 # Auth
 RewriteRule ^403$ app/views/error/E403.php
@@ -20,11 +19,11 @@ RewriteRule ^logout$ app/views/auth/logout.php
 # Admin
 RewriteRule ^admin/$ app/views/admin/dashboard.php
 RewriteRule ^admin/dashboard$ app/views/admin/dashboard.php
-RewriteRule ^admin/signup$ app/views/admin/signup.php
 RewriteRule ^admin/biography$ app/views/admin/biography.php
 RewriteRule ^admin/contact$ app/views/admin/contact.php
 RewriteRule ^admin/faq$ app/views/admin/faq.php
 RewriteRule ^admin/user$ app/views/admin/user.php
+RewriteRule ^admin/settings$ app/views/admin/settings.php
 
 Header always set X-Frame-Options "DENY"
 Header always set X-Content-Type-Options "nosniff"

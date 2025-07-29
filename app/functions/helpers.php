@@ -45,3 +45,24 @@ function get_client_ip()
   }
   return $_SERVER['REMOTE_ADDR'] ?? '0.0.0.0';
 }
+
+// SETTINGS FUNCTIONS
+function get_settings($pdo)
+{
+  $stmt = $pdo->query('SELECT * FROM settings LIMIT 1');
+  return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+
+function update_settings($pdo, $data)
+{
+  $fields = ['instagram', 'linkedin', 'tiktok', 'youtube', 'location', 'portfolio', 'portfolio2'];
+  $set = [];
+  $params = [];
+  foreach ($fields as $field) {
+    $set[] = "$field = :$field";
+    $params[":$field"] = $data[$field] ?? null;
+  }
+  $sql = 'UPDATE settings SET ' . implode(', ', $set) . ' WHERE id = 1';
+  $stmt = $pdo->prepare($sql);
+  return $stmt->execute($params);
+}

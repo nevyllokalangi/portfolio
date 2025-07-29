@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/../../functions/helpers.php';
+$settings = get_settings($pdo);
+?>
 <style type="text/css" scoped>
   /* Footer Base Styles */
   footer {
@@ -39,25 +43,6 @@
   .footer-section {
     flex: auto;
     min-width: 200px;
-  }
-
-  .footer-section:nth-child(1) {
-    align-content: center;
-  }
-
-  .footer-title {
-    font-size: 2.25rem;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 1rem;
-  }
-
-  .footer-text-pink {
-    color: var(--accentPink);
-  }
-
-  .footer-text-blue {
-    color: var(--accentBlue);
   }
 
   .footer-subtitle {
@@ -155,8 +140,8 @@
     <div class="footer-main">
       <div class="footer-content">
         <div class="footer-section">
-          <h1 class="footer-title">Where <span class="footer-text-pink">aesthetics</span> & <br><span
-              class="footer-text-blue">functionality</span> meet</h1>
+          <!-- Portfolio Download Section -->
+          <?php include __DIR__ . '/../partials/portfolio.php'; ?>
         </div>
 
         <div class="footer-section">
@@ -173,7 +158,7 @@
         <div class="footer-section">
           <h2 class="footer-subtitle">Follow Me</h2>
           <div class="footer-social-links">
-            <a class="footer-social-button" href="https://www.instagram.com/nevyllokalangi/" target="_blank"
+            <a class="footer-social-button" href="<?= htmlspecialchars($settings['instagram']) ?>" target="_blank"
               aria-label="Instagram">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899"
@@ -206,7 +191,7 @@
                 </path>
               </svg>
             </a>
-            <a class="footer-social-button" href="https://www.linkedin.com/in/nevyllokalangi/" target="_blank"
+            <a class="footer-social-button" href="<?= htmlspecialchars($settings['linkedin']) ?>" target="_blank"
               aria-label="Linkedin">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <path fill="#0078d4"
@@ -223,7 +208,7 @@
                 </path>
               </svg>
             </a>
-            <a class="footer-social-button" href="https://www.tiktok.com/@nevyllokalangi" target="_blank"
+            <a class="footer-social-button" href="<?= htmlspecialchars($settings['tiktok']) ?>" target="_blank"
               aria-label="Tiktok">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <linearGradient id="dYJkfAQNfP2dCzgdw4ruIa_fdfLpA6fsXN2_gr1" x1="23.672" x2="23.672" y1="6.365"
@@ -245,7 +230,7 @@
                   clip-rule="evenodd"></path>
               </svg>
             </a>
-            <a class="footer-social-button" href="https://www.youtube.com/nevyllokalangi/" target="_blank"
+            <a class="footer-social-button" href="<?= htmlspecialchars($settings['youtube']) ?>" target="_blank"
               aria-label="Youtube">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <linearGradient id="PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1" x1="9.816" x2="41.246" y1="9.871"
@@ -275,7 +260,7 @@
   </div>
   <div class="footer-row3">
     <a class="footer-cr">Nevyllo Zamuel Kalangi © <span id="year"></span> - Privacy Policy</a>
-    <a class="footer-cr">Makassar, Indonesia | Hangzhou, China</a>
+    <a class="footer-cr"><?= htmlspecialchars($settings['location']) ?></a>
   </div>
 </footer>
 

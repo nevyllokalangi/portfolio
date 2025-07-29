@@ -1,4 +1,8 @@
-<section>
+<?php
+require_once __DIR__ . '/../../functions/helpers.php';
+$settings = get_settings($pdo);
+?>
+<section class="portfolio">
   <!-- Interactive Folder Component -->
   <div class="folder" id="js_folder">
     <div class="folder-summary" id="js_toggle-folder">
@@ -21,7 +25,7 @@
       </div>
       <div class="folder-summary__details">
         <div class="folder-summary__details__name">
-          My Documents
+          My Portfolio
         </div>
         <div class="folder-summary__details__share">
           Contains
@@ -33,62 +37,68 @@
     </div>
 
     <ul class="folder-content" id="js_folder-content">
-      <li class="folder-item js_folder-item">
-        <div class="folder-item__icon">
-          <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#5085E8" />
-            <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z" fill="#A4BEF6" />
-            <path fill="#fff" fill-opacity=".75" d="M13 39h24v3H13zM13 57h17v3H13zM13 51h24v3H13zM13 45h24v3H13z" />
-            <defs>
-              <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29" gradientUnits="userSpaceOnUse">
-                <stop />
-                <stop offset="1" stop-opacity="0" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div class="folder-item__details">
-          Resume.docx
-        </div>
-        <div class="folder-item__size">
-          <a href="https://docs.google.com/document/d/19F1zrf3Lsz3rQhKkBlk1XyizpMkBxE_D/edit?usp=drive_link&ouid=106321179050909623281&rtpof=true&sd=true"
-            target="_blank">View</a>
-        </div>
-      </li>
+      <?php if (!empty($settings['portfolio'])): ?>
+        <li class="folder-item js_folder-item">
+          <div class="folder-item__icon">
+            <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#5085E8" />
+              <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z" fill="#A4BEF6" />
+              <path fill="#fff" fill-opacity=".75" d="M13 39h24v3H13zM13 57h17v3H13zM13 51h24v3H13zM13 45h24v3H13z" />
+              <defs>
+                <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29" gradientUnits="userSpaceOnUse">
+                  <stop />
+                  <stop offset="1" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="folder-item__details">
+            Resume.docx
+          </div>
+          <div class="folder-item__size">
+            <a href="<?= htmlspecialchars($settings['portfolio']) ?>" target="_blank">View</a>
+          </div>
+        </li>
+      <?php endif; ?>
+      <?php if (!empty($settings['portfolio2'])): ?>
+        <li class="folder-item js_folder-item">
+          <div class="folder-item__icon">
+            <svg width="50" height="70" viewBox="0 0 50 " fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#E8B52C" />
+              <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z" fill="#EEDA86" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M34 39H13v21h24V39h-3zM16 54.75h18v-10.5H16v10.5z"
+                fill="#fff" fill-opacity=".75" />
+              <defs>
+                <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29" gradientUnits="userSpaceOnUse">
+                  <stop />
+                  <stop offset="1" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="folder-item__details">
+            Resume.pdf
+          </div>
+          <div class="folder-item__size">
+            <a href="<?= htmlspecialchars($settings['portfolio2']) ?>" target="_blank">View</a>
 
-      <li class="folder-item js_folder-item">
-        <div class="folder-item__icon">
-          <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#E8B52C" />
-            <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z" fill="#EEDA86" />
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M34 39H13v21h24V39h-3zM16 54.75h18v-10.5H16v10.5z"
-              fill="#fff" fill-opacity=".75" />
-            <defs>
-              <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29" gradientUnits="userSpaceOnUse">
-                <stop />
-                <stop offset="1" stop-opacity="0" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div class="folder-item__details">
-          Resume.pdf
-        </div>
-        <div class="folder-item__size">
-          <a href="https://drive.google.com/file/d/1YY2EIbjbbHC1uIEIo49qgex0E-hPlRov/view?usp=drive_link"
-            target="_blank">View</a>
-        </div>
-      </li>
+          </div>
+        </li>
+      <?php endif; ?>
     </ul>
   </div>
 </section>
 
 <style>
   /* Folder Styles */
+  .portfolio {
+    width: 100%;
+  }
+
   .folder {
     justify-self: center;
     background: var(--secondary);

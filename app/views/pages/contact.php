@@ -23,7 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Validate inputs
   $name = trim($_POST['name'] ?? '');
   $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
-  $subject = trim($_POST['subject'] ?? '');
   $message = trim($_POST['message'] ?? '');
 
   if (empty($name)) {
@@ -40,12 +39,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors[] = "Email is too long.";
   }
 
-  if (empty($subject)) {
-    $errors[] = "Subject is required.";
-  } elseif (strlen($subject) > 200) {
-    $errors[] = "Subject is too long.";
-  }
-
   if (empty($message)) {
     $errors[] = "Message is required.";
   } elseif (strlen($message) > 5000) {
@@ -55,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Check for spam keywords
   $spamKeywords = ['http://', 'https://', 'www.', '.com', 'buy now', 'click here', 'viagra', 'casino'];
   foreach ($spamKeywords as $keyword) {
-    if (stripos($message, $keyword) !== false || stripos($subject, $keyword) !== false) {
+    if (stripos($message, $keyword) !== false) {
       $errors[] = "Your message contains suspicious content.";
       break;
     }
@@ -66,25 +59,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
       $pdo = getPDO(); // Your database connection function
 
-      $stmt = $pdo->prepare("INSERT INTO contact_messages 
-                (name, email, subject, message, ip_address, user_agent) 
-                VALUES (:name, :email, :subject, :message, :ip, :ua)");
+      $stmt = $pdo->prepare(query: "INSERT INTO contact_messages 
+                (name, email, message, ip_address, user_agent) 
+                VALUES (:name, :email, :message, :ip, :ua)");
 
       $stmt->execute([
         ':name' => $name,
         ':email' => $email,
-        ':subject' => $subject,
         ':message' => $message,
         ':ip' => $_SERVER['REMOTE_ADDR'],
         ':ua' => $_SERVER['HTTP_USER_AGENT'] ?? ''
       ]);
 
       $success = true;
-
-      // Optionally send email notification
-      // $to = "your@email.com";
-      // $headers = "From: $email";
-      // mail($to, "New Contact Form Submission: $subject", $message, $headers);
 
     } catch (PDOException $e) {
       $errors[] = "There was an error submitting your message. Please try again later.";
@@ -143,13 +130,6 @@ ob_start();
         <input type="email" id="email" name="email" required
           value="<?= isset($email) ? htmlspecialchars($email) : '' ?>">
         <label for="email">Email Address</label>
-        <div class="underline"></div>
-      </div>
-
-      <div class="form-group floating-label">
-        <input type="text" id="subject" name="subject" required
-          value="<?= isset($subject) ? htmlspecialchars($subject) : '' ?>">
-        <label for="subject">Subject</label>
         <div class="underline"></div>
       </div>
 
@@ -704,6 +684,10 @@ ob_start();
 
   // Button click handler
   submitButton.addEventListener('click', e => {
+    if (!contactForm.checkValidity()) {
+      return; // Don't animate if the form is invalid
+    }
+
     up = 1;
 
     const rippleDiv = document.createElement('div');
@@ -728,18 +712,26 @@ ob_start();
 
   // Form submission
   contactForm.addEventListener('submit', function (e) {
-    // Only animate if form is valid
-    if (this.checkValidity()) {
-      e.preventDefault(); // Prevent immediate submission for animation
+    // Prevent default submission initially
+    e.preventDefault();
 
-      // Play the full button animation
-      timeline.play();
-
-      // Actually submit the form after animation completes
-      setTimeout(() => {
-        this.submit();
-      }, 2000);
+    // Check form validity again (for safety)
+    if (!this.checkValidity()) {
+      return;
     }
+
+    // Prevent multiple animations
+    if (timeline.isActive() || complete) {
+      return;
+    }
+
+    // Start animation
+    timeline.restart();
+
+    // Submit form after animation finishes and confetti shows
+    setTimeout(() => {
+      this.submit(); // Actually submit the form (to PHP)
+    }, 2000); // Same as animation duration
   });
 
   // Simple animation on scroll
@@ -776,6 +768,10 @@ ob_start();
       label.style.color = input.value ? '#3b82f6' : '#94a3b8';
     });
   });
+  submitButton.disabled = true;
+  setTimeout(() => {
+    submitButton.disabled = false;
+  }, 3000);
 </script>
 <!-- Include footer -->
 <?php include __DIR__ . '\..\..\..\app\views\partials\footer.php'; ?>

@@ -119,7 +119,6 @@ ob_start();
                 <select name="role" class="role-select" onchange="this.form.submit()">
                   <option value="basic" <?= $user['role'] === 'basic' ? 'selected' : '' ?>>Basic</option>
                   <option value="editor" <?= $user['role'] === 'editor' ? 'selected' : '' ?>>Editor</option>
-                  <option value="maintenance" <?= $user['role'] === 'maintenance' ? 'selected' : '' ?>>Maintenance</option>
                   <option value="admin" <?= $user['role'] === 'admin' ? 'selected' : '' ?>>Admin</option>
                 </select>
                 <input type="hidden" name="edit_user" value="1">

@@ -3,6 +3,8 @@
 if (!function_exists('is_logged_in')) {
   require_once __DIR__ . '\..\..\..\database\config.php';
 }
+require_once __DIR__ . '/../../functions/helpers.php';
+$settings = get_settings($pdo);
 ?>
 <header id="nav">
   <div class="nav-container">
@@ -19,7 +21,6 @@ if (!function_exists('is_logged_in')) {
         <li><a href="/home" class="nav-link">HOME</a></li>
         <li><a href="/about" class="nav-link">ABOUT</a></li>
         <li><a href="/project" class="nav-link">PROJECT</a></li>
-        <li><a href="/gallery" class="nav-link">GALLERY</a></li>
         <li><a href="/contact" class="nav-link">CONTACT</a></li>
       </ul>
     </nav>
@@ -27,7 +28,8 @@ if (!function_exists('is_logged_in')) {
     <!-- Right Side Controls -->
     <div class="nav-controls">
       <!-- Social Links -->
-      <a class="social-button" href="https://www.instagram.com/nevyllokalangi/" target="_blank" aria-label="Instagram">
+      <a class="social-button" href="<?= htmlspecialchars($settings['instagram']) ?>" target="_blank"
+        aria-label="Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
           <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899"
             gradientUnits="userSpaceOnUse">
@@ -59,7 +61,8 @@ if (!function_exists('is_logged_in')) {
           </path>
         </svg>
       </a>
-      <a class="social-button" href="https://www.linkedin.com/in/nevyllokalangi/" target="_blank" aria-label="Linkedin">
+      <a class="social-button" href="<?= htmlspecialchars($settings['linkedin']) ?>" target="_blank"
+        aria-label="Linkedin">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
           <path fill="#0078d4"
             d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z">
@@ -75,7 +78,7 @@ if (!function_exists('is_logged_in')) {
           </path>
         </svg>
       </a>
-      <a class="social-button" href="https://www.tiktok.com/@nevyllokalangi" target="_blank" aria-label="Tiktok">
+      <a class="social-button" href="<?= htmlspecialchars($settings['tiktok']) ?>" target="_blank" aria-label="Tiktok">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
           <linearGradient id="dYJkfAQNfP2dCzgdw4ruIa_fdfLpA6fsXN2_gr1" x1="23.672" x2="23.672" y1="6.365" y2="42.252"
             gradientTransform="translate(.305 -.206)" gradientUnits="userSpaceOnUse">
@@ -96,7 +99,8 @@ if (!function_exists('is_logged_in')) {
             clip-rule="evenodd"></path>
         </svg>
       </a>
-      <a class="social-button" href="https://www.youtube.com/nevyllokalangi/" target="_blank" aria-label="Youtube">
+      <a class="social-button" href="<?= htmlspecialchars($settings['youtube']) ?>" target="_blank"
+        aria-label="Youtube">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
           <linearGradient id="PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1" x1="9.816" x2="41.246" y1="9.871" y2="41.301"
             gradientUnits="userSpaceOnUse">
@@ -146,11 +150,47 @@ if (!function_exists('is_logged_in')) {
               <p><?= htmlspecialchars($_SESSION['email']) ?></p>
             </div>
             <ul class="admin-menu">
-              <li><a href="/admin/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-              <li><a href="/admin/posts"><i class="fas fa-newspaper"></i> Posts</a></li>
-              <li><a href="/admin/biography"><i class="fas fa-users"></i> Biography</a></li>
-              <li><a href="/admin/project"><i class="fas fa-users"></i> Project</a></li>
-              <li><a href="/admin/settings"><i class="fas fa-cog"></i> Settings</a></li>
+              <li><a href="/admin/dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                    viewBox="0 -960 960 960" width="24px" fill="#ffffe3">
+                    <path
+                      d="M418-340q25 25 63 23.5t55-27.5l224-336-336 224q-26 18-28.5 54.5T418-340ZM204-160q-22 0-40.5-9.5T134-198q-26-47-40-97.5T80-400q0-83 31.5-156T197-683q54-54 127-85.5T480-800q82 0 154 31t126 84.5q54 53.5 86 125T879-406q1 55-12.5 107.5T825-198q-11 19-29.5 28.5T755-160H204Z" />
+                  </svg> Dashboard</a></li>
+              <li><a href="/admin/posts"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#ffffe3">
+                    <path
+                      d="M160-120q-33 0-56.5-23.5T80-200v-640l67 67 66-67 67 67 67-67 66 67 67-67 67 67 66-67 67 67 67-67 66 67 67-67v640q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z" />
+                  </svg> Posts</a></li>
+              <li><a href="/admin/biography"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                    viewBox="0 -960 960 960" width="24px" fill="#ffffe3">
+                    <path
+                      d="M480-160q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740v484q51-32 107-48t113-16q36 0 70.5 6t69.5 18v-480q15 5 29.5 10.5T898-752q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59Zm80-200v-380l200-200v400L560-360Z" />
+                  </svg> Biography</a></li>
+              <li><a href="/admin/project"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#ffffe3">
+                    <path
+                      d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm240-600h160v-80H400v80Z" />
+                  </svg> Project</a></li>
+              <li><a href="/admin/faq"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#ffffe3">
+                    <path
+                      d="M470-200h-10q-142 0-241-99t-99-241q0-142 99-241t241-99q71 0 132.5 26.5t108 73q46.5 46.5 73 108T800-540q0 134-75.5 249T534-111q-10 5-20 5.5t-18-4.5q-8-5-14-13t-7-19l-5-58Zm-11-121q17 0 29-12t12-29q0-17-12-29t-29-12q-17 0-29 12t-12 29q0 17 12 29t29 12Zm-87-304q11 5 22 .5t18-14.5q9-12 21-18.5t27-6.5q24 0 39 13.5t15 34.5q0 13-7.5 26T480-558q-25 22-37 41.5T431-477q0 12 8.5 20.5T460-448q12 0 20-9t12-21q5-17 18-31t24-25q21-21 31.5-42t10.5-42q0-46-31.5-74T460-720q-32 0-59 15.5T357-662q-6 11-1.5 21.5T372-625Z" />
+                  </svg> FAQ</a></li>
+              <li><a href="/admin/user"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#ffffe3">
+                    <path
+                      d="m640-120-12-60q-12-5-22.5-10.5T584-204l-58 18-40-68 46-40q-2-14-2-26t2-26l-46-40 40-68 58 18q11-8 21.5-13.5T628-460l12-60h80l12 60q12 5 22.5 11t21.5 15l58-20 40 70-46 40q2 12 2 25t-2 25l46 40-40 68-58-18q-11 8-21.5 13.5T732-180l-12 60h-80ZM80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18h14q6 0 12 2-29 72-24 143t48 135H80Zm600-80q33 0 56.5-23.5T760-320q0-33-23.5-56.5T680-400q-33 0-56.5 23.5T600-320q0 33 23.5 56.5T680-240ZM400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Z" />
+                  </svg> User</a></li>
+              <li><a href="/admin/contact">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#ffffe3">
+                    <path
+                      d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-287q5 0 10.5-1.5T501-453l283-177q8-5 12-12.5t4-16.5q0-20-17-30t-35 1L480-520 212-688q-18-11-35-.5T160-659q0 10 4 17.5t12 11.5l283 177q5 3 10.5 4.5T480-447Z" />
+                  </svg> Messages</a></li>
+              <li><a href="/admin/settings"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#ffffe3">
+                    <path
+                      d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm112-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z" />
+                  </svg> Settings</a></li>
             </ul>
             <div class="profile-footer">
               <a href="/logout" class="logout-btn">Logout</a>
@@ -178,13 +218,13 @@ if (!function_exists('is_logged_in')) {
         </ul>
 
         <div class="mobile-social-links">
-          <a href="https://www.instagram.com/duniaharapanschool/" target="_blank" aria-label="Instagram">
+          <a href="<?= htmlspecialchars($settings['instagram']) ?>" target="_blank" aria-label="Instagram">
             <i class="fab fa-instagram"></i> Instagram
           </a>
-          <a href="https://www.youtube.com/@duniaharapanschool4060" target="_blank" aria-label="YouTube">
+          <a href="<?= htmlspecialchars($settings['youtube']) ?>" target="_blank" aria-label="YouTube">
             <i class="fab fa-youtube"></i> YouTube
           </a>
-          <a href="https://www.facebook.com/duniaharapanschool/" target="_blank" aria-label="Facebook">
+          <a href="<?= htmlspecialchars($settings['facebook']) ?>" target="_blank" aria-label="Facebook">
             <i class="fab fa-facebook"></i> Facebook
           </a>
         </div>

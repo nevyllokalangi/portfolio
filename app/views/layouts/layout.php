@@ -49,6 +49,68 @@ require_once __DIR__ . '/../../../config.php';
     --hoverColor: #333333;
 
     --transition: all 0.3s ease;
+
+
+
+    /* === Background Colors === */
+    --color-bg-primary: #0A0A12;
+    /* Event Horizon Black */
+    --color-bg-secondary: #13131F;
+    /* Deep Void Navy */
+    --color-bg-surface: #1A1A2E;
+    /* Interstellar Gray */
+    --color-bg-navbar: #0D0D18;
+    /* For headers or sticky nav */
+    --color-bg-card: #1A1A2E;
+    /* Card or modal surfaces */
+
+    /* === Text Colors === */
+    --color-text-primary: #E0E0E0;
+    /* Starshine White */
+    --color-text-secondary: #AAAAAA;
+    /* Cosmic Gray */
+    --color-text-muted: #666666;
+    /* Nebula Gray */
+    --color-text-link: #00F5D4;
+    /* Aurora Cyan */
+    --color-text-success: #37FF8B;
+    /* Wormhole Green */
+    --color-text-error: #FF3C38;
+    /* Singularity Red */
+
+    /* === Accent & Brand Colors === */
+    --color-accent-primary: #F4C430;
+    /* Accretion Gold */
+    --color-accent-hover: #FFD700;
+    /* Gold Hover Highlight */
+    --color-accent-secondary: #9B5DE5;
+    /* Neutron Purple */
+    --color-accent-tertiary: #00F5D4;
+    /* Aurora Cyan */
+
+    /* === Button Colors === */
+    --color-button-primary-bg: #F4C430;
+    --color-button-primary-text: #0A0A12;
+    --color-button-primary-hover: #FFD700;
+
+    --color-button-secondary-bg: #1A1A2E;
+    --color-button-secondary-text: #F4C430;
+    --color-button-secondary-hover: #2E2E42;
+
+    /* === Border & Outline === */
+    --color-border: #29293F;
+    /* Photon Dust */
+
+    /* === Status Colors === */
+    --color-success: #37FF8B;
+    /* Success - Green */
+    --color-error: #FF3C38;
+    /* Error - Red */
+
+    /* === Optional Effects === */
+    --color-glow-primary: rgba(244, 196, 48, 0.4);
+    --color-glow-link: rgba(0, 245, 212, 0.3);
+    --color-shadow-card: rgba(0, 0, 0, 0.4);
   }
 
   /* Regular */
@@ -161,6 +223,42 @@ require_once __DIR__ . '/../../../config.php';
     <?php include __DIR__ . '/../partials/header.php'; ?>
     <?php echo isset($content) ? $content : ''; ?>
   </div>
+  <script>
+    // Prefetch internal links on hover/touch
+    document.addEventListener('DOMContentLoaded', function () {
+      const isInternal = href => href.startsWith('/') && !href.startsWith('//') && !href.startsWith('/#') && !href.startsWith('#');
+      const prefetchCache = new Set();
+      function prefetch(url) {
+        if (!prefetchCache.has(url)) {
+          prefetchCache.add(url);
+          const link = document.createElement('link');
+          link.rel = 'prefetch';
+          link.href = url;
+          document.head.appendChild(link);
+        }
+      }
+      document.body.addEventListener('mouseover', function (e) {
+        const a = e.target.closest('a');
+        if (a && isInternal(a.getAttribute('href'))) {
+          prefetch(a.href);
+        }
+      }, { passive: true });
+      document.body.addEventListener('touchstart', function (e) {
+        const a = e.target.closest('a');
+        if (a && isInternal(a.getAttribute('href'))) {
+          prefetch(a.href);
+        }
+      }, { passive: true });
+    });
+    // Aggressive cache via service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').catch(function (err) {
+          // Registration failed
+        });
+      });
+    }
+  </script>
 </body>
 
 </html>
