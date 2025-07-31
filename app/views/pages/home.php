@@ -16,23 +16,35 @@ $pageJS = '/public/js/home.js';
 
   /* Base Styles */
   .hero {
-    height: 100vh;
-    width: 100vw;
-    min-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: var(--primary);
-    position: relative;
-    overflow: hidden;
-    background-image: url('/public/img/home.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    min-height: 800px;
   }
 
+  .hero-subtitle {
+    width: 30%;
+  }
+
+  .hero-title {
+    width: 100%;
+  }
+
+  .hero-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
 
   /* Enhanced Scroll Indicator */
   .hero-scroll {
@@ -43,7 +55,7 @@ $pageJS = '/public/js/home.js';
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -57,7 +69,7 @@ $pageJS = '/public/js/home.js';
   .scroll-animation {
     width: 24px;
     height: 40px;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid var(--color-border);
     border-radius: 12px;
     position: relative;
   }
@@ -65,7 +77,7 @@ $pageJS = '/public/js/home.js';
   .scroll-dot {
     width: 4px;
     height: 8px;
-    background: var(--primaryFont);
+    background: var(--color-text-primary);
     border-radius: 2px;
     position: absolute;
     top: 6px;
@@ -123,48 +135,25 @@ $pageJS = '/public/js/home.js';
       font-size: 2.5rem;
     }
   }
-
-  /* Scrolling Text Section */
-  .text-wrapper {
-    display: flex;
-    background: var(--primaryFont);
-    overflow: hidden;
-    width: 100%;
-    padding: 1rem 0;
-  }
-
-  .text-wrapper h1 {
-    font-size: 3rem;
-    color: black;
-    letter-spacing: 1px;
-    animation: move-rtl 16s linear infinite;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  @keyframes move-rtl {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-100%);
-    }
-  }
 </style>
 <main class="content">
   <!-- Hero Section -->
 
-  <section class="hero">
-    <div class="hero-content">
-      <div>
 
-      </div>
-      <div>
-        <h1>NEVYLLO</h1>
-        <h1>ZAMUEL</h1>
-        <h1>KALANGI</h1>
-      </div>
+
+
+
+
+
+
+
+  <section class="hero">
+    <video class="hero-bg" src="public/img/home-bg.mp4" muted loop autoplay></video>
+    <div class="hero-content">
+      <img class="hero-subtitle" src="public/img/home-subtitle.svg" draggable="false" loading="lazy"
+        oncontextmenu="return false;" />
+      <img class="hero-title" src="public/img/home-title.svg" draggable="false" loading="lazy"
+        oncontextmenu="return false;" />
     </div>
 
     <!-- Enhanced scroll indicator -->
@@ -184,17 +173,10 @@ $pageJS = '/public/js/home.js';
   <!-- FAQ Section -->
   <?php include __DIR__ . '\..\..\..\app\views\partials\faq.php'; ?>
 
-
-  <div class="text-wrapper">
-    <h1> — NEVYLLO KALANGI — CONTENT CREATOR</h1>
-    <h1> — NEVYLLO KALANGI — EVENT MANAGER</h1>
-    <h1> — NEVYLLO KALANGI — CREATIVE DEVELOPER</h1>
-  </div>
+  <!-- Contact Section -->
+  <?php include __DIR__ . '\..\..\..\app\views\partials\contact.php'; ?>
 </main>
 <!-- Include footer -->
 <?php include __DIR__ . '\..\..\..\app\views\partials\footer.php'; ?>
 <?php $content = ob_get_clean(); ?>
 <?php include __DIR__ . '/../layouts/layout.php'; ?>
-
-<script>
-</script>

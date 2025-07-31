@@ -76,17 +76,17 @@ ob_start();
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: var(--primary);
+    background-color: var(--color-bg-primary);
   }
 
   .login-card {
     width: 100%;
     max-width: 400px;
-    background: var(--secondary);
+    background: var(--color-bg-surface);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 40px;
-    border: 1px solid var(--borderColor);
+    border: 1px solid var(--color-border);
   }
 
   .login-header {
@@ -98,11 +98,11 @@ ob_start();
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
-    color: var(--tertiaryFont);
+    color: var(--color-accent-secondary);
   }
 
   .login-header p {
-    color: var(--secondaryFont);
+    color: var(--color-text-secondary);
     font-size: 14px;
   }
 
@@ -113,16 +113,16 @@ ob_start();
   .form-group input {
     width: 100%;
     padding: 12px 15px;
-    border: 1px solid var(--borderColor);
+    border: 1px solid var(--color-border);
     border-radius: 4px;
     font-size: 14px;
     transition: var(--transition);
-    background-color: var(--tertiary);
-    color: var(--primaryFont);
+    background-color: var(--color-bg-surface);
+    color: var(--color-text-primary);
   }
 
   .form-group input:focus {
-    border-color: var(--accentBlue);
+    border-color: var(--color-accent-primary);
     outline: none;
   }
 
@@ -130,7 +130,7 @@ ob_start();
     display: flex;
     align-items: center;
     font-size: 14px;
-    color: var(--secondaryFont);
+    color: var(--color-text-secondary);
     margin-bottom: 20px;
   }
 
@@ -141,8 +141,8 @@ ob_start();
   .login-button {
     width: 100%;
     padding: 12px;
-    background-color: var(--tertiaryFont);
-    color: var(--primaryFont);
+    background-color: var(--color-accent-secondary);
+    color: var(--color-text-primary);
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -152,12 +152,12 @@ ob_start();
   }
 
   .login-button:hover {
-    background-color: rgb(149, 21, 48);
+    background-color: var(--color-accent-hover);
   }
 
   .login-error {
-    background-color: #ffebee;
-    color: #d32f2f;
+    background-color: var(--color-error);
+    color: var(--color-bg-primary);
     padding: 12px 15px;
     border-radius: 4px;
     margin-bottom: 20px;

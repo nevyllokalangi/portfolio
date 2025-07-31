@@ -164,8 +164,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   .error-message {
-    background-color: #fdecea;
-    color: #d32f2f;
+    background-color: var(--color-error);
+    color: var(--color-bg-primary);
     padding: 14px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -175,8 +175,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   .success-message {
-    background-color: #e8f5e9;
-    color: #2e7d32;
+    background-color: var(--color-success);
+    color: var(--color-bg-primary);
     padding: 14px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -192,7 +192,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flex-direction: column;
     width: 100%;
     max-width: 500px;
-    background-color: var(--tertiary);
+    background-color: var(--color-bg-surface);
     border-radius: 10px;
     padding: .75rem;
   }
@@ -200,7 +200,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   .card-image {
     border-radius: 8px;
     overflow: hidden;
-    background-color: #eddbc5;
+    background-color: var(--color-bg-card);
     padding-bottom: 40%;
     background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     right: 10%;
     font-size: 1.75rem;
     font-weight: 700;
-    color: #735400;
+    color: var(--color-accent-primary);
     line-height: 1.222;
   }
 
@@ -243,7 +243,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   .input-label {
-    color: var(--primaryFont);
+    color: var(--color-text-primary);
     position: absolute;
     top: 1rem;
     transition: .25s ease;
@@ -253,7 +253,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     border: 0;
     z-index: 1;
     background-color: transparent;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid var(--color-border);
     font: inherit;
     font-size: 1rem;
     padding: .25rem 0;
@@ -262,12 +262,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   .input-field:focus,
   .input-field:valid {
     outline: 0;
-    border-bottom-color: var(--tertiaryFont);
+    border-bottom-color: var(--color-accent-primary);
   }
 
   .input-field:focus+.input-label,
   .input-field:valid+.input-label {
-    color: var(--tertiaryFont);
+    color: var(--color-accent-primary);
     transform: translateY(-1.5rem);
   }
 
@@ -281,9 +281,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     padding: 1em;
     width: 100%;
     font-weight: 500;
-    background-color: var(--tertiaryFont);
+    background-color: var(--color-accent-primary);
     border-radius: 6px;
-    color: var(--primaryFont);
+    color: var(--color-bg-primary);
     border: 0;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -294,19 +294,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   .action-button:hover {
-    background-color: var(--tertiaryFont);
+    background-color: var(--color-accent-hover);
   }
 
   .card-info {
     padding: 1rem 1rem;
     text-align: center;
     font-size: .875rem;
-    color: var(--secondaryFont);
+    color: var(--color-text-secondary);
   }
 
   .card-info a {
     display: block;
-    color: var(--tertiaryFont);
+    color: var(--color-accent-primary);
     text-decoration: none;
   }
 

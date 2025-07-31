@@ -53,6 +53,8 @@ ob_start();
   <div id="background-image-container">
     <img id="background-image" crossorigin="anonymous" alt="">
   </div>
+  <!-- Contact Section -->
+  <?php include __DIR__ . '\..\..\..\app\views\partials\contact.php'; ?>
 </main>
 
 <style>
