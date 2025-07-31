@@ -9,72 +9,45 @@ ob_start();
 <main class="content">
   <!-- Hero Section -->
   <section class="about-hero">
-    <span class="hero-greeting">Hello, I'm</span>
-    <h1 class="hero-name">Nevyllo Z. Kalangi</h1>
-    <h2 class="hero-role">And I'm a <span class="highlight-role">Digital Creator & Developer</span></h2>
-    <p class="hero-desc">
-      I blend creativity and technology to deliver impactful digital experiences. With a passion for storytelling,
-      design, and development, I help brands and individuals stand out in the digital world.
-    </p>
+    <div>About</div><br>
+    <div class="about-desc">Nevyllo is a Computer Science student currently studying in China, where he balances a
+      demanding academic life with active roles in student organizations like PPIT. His interests live at the
+      intersection of technology, media,
+      and leadership — blending logic with storytelling. <br><br>With a passion for design, web development, and digital
+      content, he often finds himself building tools, platforms,
+      and visual experiences that are both functional and expressive. From structuring efficient workflows for
+      multimedia departments to fine-tuning UI aesthetics with dark themes and accent hues, Nevyllo approaches tech
+      projects with both discipline and flair.<br><br>He is deeply curious about how technology can empower individuals
+      and
+      communities — whether through generative
+      art, automation systems, or impactful visual communication. Outside the classroom, he frequently shares his
+      experience of student life abroad, juggling responsibilities, and creative work through engaging social media
+      content.<br><br>Originally from Indonesia, Nevyllo continues to grow his voice as both a technical creator and
+      cultural bridge —
+      building, sharing, and leading with purpose.<br><br>
+    </div>
   </section>
   <!-- Image Slider -->
   <?php include __DIR__ . '/../partials/imageslider.php'; ?>
   <!-- Biography Section -->
   <?php include __DIR__ . '/../partials/biography.php'; ?>
+  <!-- Contact Section -->
+  <?php include __DIR__ . '\..\..\..\app\views\partials\contact.php'; ?>
 </main>
 
 <style>
-  .content {
-    padding-bottom: 6rem;
-  }
-
   .about-hero {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex: 1;
     padding: 10%;
-    background: var(--primary, #0d0d0d);
-    color: var(--primaryFont, #ffffe3);
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
   }
 
-  .hero-greeting {
-    font-size: 1.1rem;
-    color: var(--accentBlue, #4dabf7);
-    font-weight: 500;
-  }
-
-  .hero-name {
-    font-size: 7rem;
-    font-weight: 800;
-    color: #fff;
-  }
-
-  .hero-role {
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: var(--primaryFont, #ffffe3);
-    margin-bottom: 0.7rem;
-  }
-
-  .highlight-role {
-    color: var(--accentBlue, #4dabf7);
-    font-weight: 700;
-  }
-
-  .hero-desc {
+  .about-desc {
     white-space: normal;
-    font-size: 1.08rem;
-    color: var(--secondaryFont, #ccccb5);
-    margin-bottom: 1.2rem;
-  }
-
-  @media (max-width: 900px) {
-    .about-hero-inner {
-      flex-direction: column;
-      gap: 2.2rem;
-      padding: 2.5rem 0.5rem;
-    }
   }
 </style>
 <!-- Include footer -->

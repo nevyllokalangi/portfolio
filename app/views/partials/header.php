@@ -21,7 +21,6 @@ $settings = get_settings($pdo);
         <li><a href="/home" class="nav-link">HOME</a></li>
         <li><a href="/about" class="nav-link">ABOUT</a></li>
         <li><a href="/project" class="nav-link">PROJECT</a></li>
-        <li><a href="/contact" class="nav-link">CONTACT</a></li>
       </ul>
     </nav>
 
@@ -223,9 +222,6 @@ $settings = get_settings($pdo);
           </a>
           <a href="<?= htmlspecialchars($settings['youtube']) ?>" target="_blank" aria-label="YouTube">
             <i class="fab fa-youtube"></i> YouTube
-          </a>
-          <a href="<?= htmlspecialchars($settings['facebook']) ?>" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook"></i> Facebook
           </a>
         </div>
 
