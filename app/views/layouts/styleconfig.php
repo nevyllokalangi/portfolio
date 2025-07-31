@@ -9,7 +9,14 @@ function getCommonStyles()
         font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
-        src: url("https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2") format("woff2");
+        src: url("public/font/Poppins.woff");
+    }
+
+    @font-face {
+        font-family: "Dharma";
+        font-style: normal;
+        font-weight: 400;
+        src: url("public/font/DharmaGothic.woff");
     }
 
     /* Common Reset */
@@ -43,7 +50,7 @@ function getCommonStyles()
         overflow-x: hidden;
         min-height: 100%;
         min-width: 480px;
-        color: var(--primaryFont);
+        color: var(--color-text-primary);
     }
 
     .seperator {
@@ -82,30 +89,30 @@ function getVariables()
   return <<<CSS
       :root {
       /* === Background Colors === */
-      --color-bg-primary: #0A0A12;         /* Deep black base */
-      --color-bg-secondary: #13131F;       /* Slightly lighter section bg */
+      --color-bg-primary: #010101;         /* Deep black base */
+      --color-bg-secondary: #111111;       /* Slightly lighter section bg */
       --color-bg-surface: #1A1A2E;         /* Cards, nav, modals */
       --color-bg-navbar: #0D0D18;          /* Slight contrast navbar */
       --color-bg-card: #1A1A2E;
 
       /* === Text Colors === */
-      --color-text-primary: #E0E0E0;       /* Main readable white */
-      --color-text-secondary: #AAAAAA;     /* Subtle supporting text */
-      --color-text-muted: #666666;         /* Placeholder or disabled text */
+      --color-text-primary: #ffffe3;       /* Main readable white */
+      --color-text-secondary:rgb(227, 255, 236);     /* Subtle supporting text */
+      --color-text-muted:#4e4e4a;         /* Placeholder or disabled text */
       --color-text-link: #00CFFD;          /* Cool blue-cyan links */
       --color-text-success: #4FFFB0;       /* Teal green success */
       --color-text-error: #FF3C38;         /* Bright red error */
 
       /* === Accent & Brand Colors === */
       --color-accent-primary: #00CFFD;     /* Primary accent: neon blue */
-      --color-accent-hover: #14E4FF;       /* Hover glow: brighter cyan */
+      --color-accent-hover:#0093b4;       /* Hover glow: brighter cyan */
       --color-accent-secondary: #537FE7;   /* Soft space-blue for UI elements */
       --color-accent-tertiary: #41EAD4;    /* Teal glow (optional alt accent) */
 
       /* === Button Colors === */
       --color-button-primary-bg: #00CFFD;
       --color-button-primary-text: #0A0A12;
-      --color-button-primary-hover: #14E4FF;
+      --color-button-primary-hover:#00a5bb;
 
       --color-button-secondary-bg: #1A1A2E;
       --color-button-secondary-text: #00CFFD;
@@ -162,7 +169,7 @@ function getAdminLayoutSpecific()
     .mobile-restriction-icon {
         font-size: clamp(3rem, 8vw, 4rem);
         margin-bottom: clamp(1.5rem, 4vw, 2rem);
-        color: var(--accentBlue);
+        color: var(--color-button-primary-bg);
     }
 
     .mobile-restriction h1 {
@@ -187,7 +194,7 @@ function getAdminLayoutSpecific()
     .mobile-restriction .back-btn {
         margin-top: clamp(1.5rem, 4vw, 2rem);
         padding: clamp(0.75rem, 2vw, 1rem) clamp(1.5rem, 4vw, 2rem);
-        background-color: var(--accentBlue);
+        background-color: var(--color-button-primary-bg);
         color: var(--primaryFont);
         text-decoration: none;
         border-radius: 8px;
@@ -198,7 +205,7 @@ function getAdminLayoutSpecific()
     }
 
     .mobile-restriction .back-btn:hover {
-        background-color: var(--accentPurple);
+        background-color: var(--color-button-primary-hover);
         transform: translateY(-2px);
     }
 
@@ -236,9 +243,9 @@ function getRegularLayoutSpecific()
       width: 100vw;
       max-width: 1920px;
       min-height: 100vh;
-      margin-bottom: 330px;
+      margin-bottom: 680px;
       z-index: 10;
-      background-color: var(--primary);
+      background-color: var(--color-bg-primary);
   }
   CSS;
 }

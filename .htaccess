@@ -6,7 +6,6 @@ Options -Indexes
 RewriteRule ^home$ app/views/pages/home.php
 RewriteRule ^about$ app/views/pages/about.php
 RewriteRule ^project$ app/views/pages/project.php
-RewriteRule ^contact$ app/views/pages/contact.php
 
 # Auth
 RewriteRule ^403$ app/views/error/E403.php

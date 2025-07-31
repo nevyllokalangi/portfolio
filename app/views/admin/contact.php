@@ -36,70 +36,72 @@ ob_start();
 ?>
 
 <main class="content">
-  <div class="admin-header">
-    <h1>Contact Messages</h1>
-    <div class="header-actions">
-      <button id="markAllReadBtn" class="button">Mark All as Read</button>
-      <button id="toggleUnreadBtn" class="button">Show Unread Only</button>
+  <div className="wrapper">
+    <div class="admin-header">
+      <h1>Contact Messages</h1>
+      <div class="header-actions">
+        <button id="markAllReadBtn" class="button">Mark All as Read</button>
+        <button id="toggleUnreadBtn" class="button">Show Unread Only</button>
+      </div>
     </div>
-  </div>
 
-  <div class="stats-container">
-    <div class="stat-card">
-      <span class="stat-value"><?= count($messages) ?></span>
-      <span class="stat-label">Total Messages</span>
+    <div class="stats-container">
+      <div class="stat-card">
+        <span class="stat-value"><?= count($messages) ?></span>
+        <span class="stat-label">Total Messages</span>
+      </div>
+      <div class="stat-card">
+        <?php
+        $unreadCount = count(array_filter($messages, fn($msg) => (int) $msg['is_read'] === 0));
+        ?>
+        <span class="stat-value"><?= $unreadCount ?></span>
+        <span class="stat-label">Unread Messages</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value"><?= count($messages) > 0 ? round($unreadCount / count($messages) * 100) : 0 ?>%</span>
+        <span class="stat-label">Unread Rate</span>
+      </div>
     </div>
-    <div class="stat-card">
-      <?php
-      $unreadCount = count(array_filter($messages, fn($msg) => (int) $msg['is_read'] === 0));
-      ?>
-      <span class="stat-value"><?= $unreadCount ?></span>
-      <span class="stat-label">Unread Messages</span>
-    </div>
-    <div class="stat-card">
-      <span class="stat-value"><?= count($messages) > 0 ? round($unreadCount / count($messages) * 100) : 0 ?>%</span>
-      <span class="stat-label">Unread Rate</span>
-    </div>
-  </div>
 
-  <div class="table-container">
-    <table class="messages-table">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Status</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <?php foreach ($messages as $msg): ?>
-          <tr class="<?= (int) $msg['is_read'] === 0 ? 'unread' : '' ?>"
-            data-status="<?= (int) $msg['is_read'] === 0 ? 'unread' : 'read' ?>">
-            <td><?= htmlspecialchars($msg['created_at']) ?></td>
-            <td><?= htmlspecialchars($msg['name']) ?></td>
-            <td><?= htmlspecialchars($msg['email']) ?></td>
-            <td>
-              <span class="status-badge <?= (int) $msg['is_read'] === 0 ? 'unread-badge' : 'read-badge' ?>">
-                <?= (int) $msg['is_read'] === 0 ? 'Unread' : 'Read' ?>
-              </span>
-            </td>
-            <td class="actions">
-              <button class="view-btn" data-msg='<?= json_encode($msg) ?>'>View</button>
-              <button class="delete-btn" data-id="<?= $msg['id'] ?>">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path
-                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                  <path fill-rule="evenodd"
-                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                </svg>
-              </button>
-            </td>
+    <div class="table-container">
+      <table class="messages-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Status</th>
+            <th>Actions</th>
           </tr>
-        <?php endforeach; ?>
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          <?php foreach ($messages as $msg): ?>
+            <tr class="<?= (int) $msg['is_read'] === 0 ? 'unread' : '' ?>"
+              data-status="<?= (int) $msg['is_read'] === 0 ? 'unread' : 'read' ?>">
+              <td><?= htmlspecialchars($msg['created_at']) ?></td>
+              <td><?= htmlspecialchars($msg['name']) ?></td>
+              <td><?= htmlspecialchars($msg['email']) ?></td>
+              <td>
+                <span class="status-badge <?= (int) $msg['is_read'] === 0 ? 'unread-badge' : 'read-badge' ?>">
+                  <?= (int) $msg['is_read'] === 0 ? 'Unread' : 'Read' ?>
+                </span>
+              </td>
+              <td class="actions">
+                <button class="view-btn" data-msg='<?= json_encode($msg) ?>'>View</button>
+                <button class="delete-btn" data-id="<?= $msg['id'] ?>">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                      d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                    <path fill-rule="evenodd"
+                      d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          <?php endforeach; ?>
+        </tbody>
+      </table>
+    </div>
   </div>
 </main>
 
@@ -163,13 +165,18 @@ ob_start();
 </div>
 
 <style>
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .admin-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .admin-header h1 {
@@ -185,8 +192,8 @@ ob_start();
 
   .button {
     padding: 0.5rem 1rem;
-    background: var(--accentBlue, #3182ce);
-    color: white;
+    background: var(--color-accent-primary);
+    color: var(--color-bg-primary);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -195,23 +202,24 @@ ob_start();
   }
 
   .button:hover {
-    background: #2b6cb0;
+    background: var(--color-accent-hover);
   }
 
   .btn-danger {
-    background: #e53e3e;
+    background: var(--color-error);
   }
 
   .btn-danger:hover {
-    background: #c53030;
+    background: var(--color-error);
+    opacity: 0.85;
   }
 
   .btn-cancel {
-    background: #a0aec0;
+    background: var(--color-border);
   }
 
   .btn-cancel:hover {
-    background: #718096;
+    background: var(--color-bg-secondary);
   }
 
   .stats-container {
@@ -222,7 +230,7 @@ ob_start();
 
   .stat-card {
     flex: 1;
-    background: var(--secondary);
+    background: var(--color-bg-secondary);
     border-radius: 0.5rem;
     padding: 1.25rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -237,11 +245,11 @@ ob_start();
 
   .stat-label {
     font-size: 0.875rem;
-    color: #718096;
+    color: var(--color-text-secondary);
   }
 
   .table-container {
-    background: var(--secondary);
+    background: var(--color-bg-secondary);
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -259,14 +267,14 @@ ob_start();
   }
 
   .messages-table th {
-    background-color: var(--tertiary);
+    background-color: var(--color-tertiary);
     text-transform: uppercase;
     font-size: 0.75rem;
     letter-spacing: 0.05em;
   }
 
   .messages-table tbody tr {
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .messages-table tbody tr:last-child {
@@ -274,7 +282,7 @@ ob_start();
   }
 
   .messages-table tbody tr.unread {
-    background-color: rgba(49, 130, 206, 0.05);
+    background-color: var(--color-accent-primary);
     font-weight: 600;
   }
 
@@ -288,13 +296,13 @@ ob_start();
   }
 
   .unread-badge {
-    background-color: #ebf8ff;
-    color: #3182ce;
+    background-color: var(--color-accent-primary);
+    color: var(--color-bg-primary);
   }
 
   .read-badge {
-    background-color: #f0fff4;
-    color: #38a169;
+    background-color: var(--color-success);
+    color: var(--color-bg-primary);
   }
 
   .actions {
@@ -304,8 +312,8 @@ ob_start();
 
   .view-btn {
     padding: 0.4rem 0.7rem;
-    background: var(--accentBlue, #3182ce);
-    color: white;
+    background: var(--color-accent-primary);
+    color: var(--color-bg-primary);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -313,8 +321,8 @@ ob_start();
 
   .delete-btn {
     padding: 0.4rem 0.7rem;
-    background: #fed7d7;
-    color: #e53e3e;
+    background: var(--color-error);
+    color: var(--color-bg-primary);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -324,7 +332,8 @@ ob_start();
   }
 
   .delete-btn:hover {
-    background: #feb2b2;
+    background: var(--color-error);
+    opacity: 0.85;
   }
 
   .modal {
@@ -341,7 +350,7 @@ ob_start();
   }
 
   .modal-content {
-    background: var(--primary);
+    background: var(--color-bg-primary);
     max-width: 600px;
     width: 90%;
     padding: 1.5rem;
@@ -356,7 +365,7 @@ ob_start();
     align-items: center;
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .close-modal {
@@ -364,11 +373,11 @@ ob_start();
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #718096;
+    color: var(--color-text-secondary);
   }
 
   .close-modal:hover {
-    color: #4a5568;
+    color: var(--color-accent-hover);
   }
 
   .form-row {
@@ -390,21 +399,21 @@ ob_start();
     display: block;
     font-weight: 600;
     margin-bottom: 0.25rem;
-    color: #4a5568;
+    color: var(--color-text-primary);
   }
 
   .form-group p {
     margin: 0;
     padding: 0.5rem 0;
-    color: #2d3748;
+    color: var(--color-text-primary);
   }
 
   .message-box {
     white-space: pre-wrap;
     word-break: break-word;
-    background: var(--secondary);
+    background: var(--color-bg-secondary);
     padding: 1em;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-border);
     border-radius: 0.5rem;
     line-height: 1.6;
     max-height: 300px;
@@ -421,7 +430,7 @@ ob_start();
   .no-messages {
     text-align: center;
     padding: 2rem;
-    color: #718096;
+    color: var(--color-text-secondary);
     font-style: italic;
   }
 </style>
