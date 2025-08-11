@@ -179,6 +179,11 @@ ob_start();
 
 <style>
   /* Admin Styles */
+  .admin-container {
+    width: 100vw;
+    padding: 20px 5vw;
+  }
+
   .admin-header {
     width: 100%;
     margin-bottom: 2rem;

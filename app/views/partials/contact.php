@@ -198,7 +198,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </svg>
       nevyllokalangi on GitHub
     </a><br>
-
     <div>◼ CONTACT</div>
     <div>For all enquiries:</div>
     <a class="contact-social-button" href="mailto:<?= htmlspecialchars($settings['mail']) ?>" target="_blank"
@@ -209,8 +208,69 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </svg>
       nevyllokalangi@gmail.com
     </a><br>
-    <!-- Portfolio Download Section -->
-    <?php include __DIR__ . '/../partials/portfolio.php'; ?>
+    <div>◼ PORTFOLIO</div>
+    <div class="portfolio">
+      <?php if (!empty($settings['portfolio'])): ?>
+        <a href="<?= htmlspecialchars($settings['portfolio']) ?>" target="_blank" class="folder-item js_folder-item">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256"
+            height="256" viewBox="0 0 256 256" xml:space="preserve">
+            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+              transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+              <path
+                d="M 19.309 0 C 15.04 0 11.58 3.46 11.58 7.729 v 47.153 v 27.389 c 0 4.269 3.46 7.729 7.729 7.729 h 51.382 c 4.269 0 7.729 -3.46 7.729 -7.729 V 54.882 V 25.82 L 52.601 0 H 19.309 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(2,99,209); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path d="M 78.42 25.82 H 60.159 c -4.175 0 -7.559 -3.384 -7.559 -7.559 V 0 L 78.42 25.82 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(78,146,223); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 45.544 64.099 c -3.416 0 -6.195 -2.778 -6.195 -6.194 v -7.915 c 0 -3.416 2.779 -6.195 6.195 -6.195 c 3.417 0 6.196 2.779 6.196 6.195 v 7.915 C 51.74 61.32 48.961 64.099 45.544 64.099 z M 45.544 47.294 c -1.486 0 -2.695 1.209 -2.695 2.695 v 7.915 c 0 1.485 1.209 2.694 2.695 2.694 c 1.487 0 2.696 -1.209 2.696 -2.694 v -7.915 C 48.24 48.503 47.031 47.294 45.544 47.294 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 28.517 64.099 h -3.845 c -0.966 0 -1.75 -0.783 -1.75 -1.75 V 45.544 c 0 -0.966 0.784 -1.75 1.75 -1.75 h 3.845 c 3.747 0 6.795 3.048 6.795 6.795 v 6.715 C 35.312 61.051 32.264 64.099 28.517 64.099 z M 26.422 60.599 h 2.095 c 1.817 0 3.295 -1.479 3.295 -3.295 v -6.715 c 0 -1.816 -1.479 -3.295 -3.295 -3.295 h -2.095 V 60.599 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 65.328 64.099 h -2.817 c -3.763 0 -6.823 -3.061 -6.823 -6.822 v -6.659 c 0 -3.763 3.061 -6.823 6.823 -6.823 h 2.817 c 0.967 0 1.75 0.784 1.75 1.75 c 0 0.967 -0.783 1.75 -1.75 1.75 h -2.817 c -1.832 0 -3.323 1.491 -3.323 3.323 v 6.659 c 0 1.832 1.491 3.322 3.323 3.322 h 2.817 c 0.967 0 1.75 0.783 1.75 1.75 S 66.295 64.099 65.328 64.099 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            </g>
+          </svg>
+          Portfolio.docx
+        </a>
+      <?php endif; ?>
+      <?php if (!empty($settings['portfolio2'])): ?>
+        <a href="<?= htmlspecialchars($settings['portfolio2']) ?>" target="_blank" class="folder-item js_folder-item">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256"
+            height="256" viewBox="0 0 256 256" xml:space="preserve">
+            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+              transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+              <path
+                d="M 19.309 0 C 15.04 0 11.58 3.46 11.58 7.729 v 47.153 v 27.389 c 0 4.269 3.46 7.729 7.729 7.729 h 51.382 c 4.269 0 7.729 -3.46 7.729 -7.729 V 54.882 V 25.82 L 52.601 0 H 19.309 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,38,43); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path d="M 78.42 25.82 H 60.159 c -4.175 0 -7.559 -3.384 -7.559 -7.559 V 0 L 78.42 25.82 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(235,103,106); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 30.116 46.949 h -5.944 c -0.966 0 -1.75 0.783 -1.75 1.75 v 9.854 v 6.748 c 0 0.967 0.784 1.75 1.75 1.75 s 1.75 -0.783 1.75 -1.75 v -4.998 h 4.194 c 2.53 0 4.588 -2.059 4.588 -4.588 v -4.177 C 34.704 49.008 32.646 46.949 30.116 46.949 z M 31.204 55.715 c 0 0.6 -0.488 1.088 -1.088 1.088 h -4.194 v -6.354 h 4.194 c 0.6 0 1.088 0.488 1.088 1.089 V 55.715 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 43.703 46.949 h -3.246 c -0.966 0 -1.75 0.783 -1.75 1.75 v 16.602 c 0 0.967 0.784 1.75 1.75 1.75 h 3.246 c 4.018 0 7.286 -3.269 7.286 -7.287 v -5.527 C 50.989 50.218 47.721 46.949 43.703 46.949 z M 47.489 59.764 c 0 2.088 -1.698 3.787 -3.786 3.787 h -1.496 V 50.449 h 1.496 c 2.088 0 3.786 1.699 3.786 3.787 V 59.764 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              <path
+                d="M 65.828 46.949 h -8.782 c -0.967 0 -1.75 0.783 -1.75 1.75 v 16.602 c 0 0.967 0.783 1.75 1.75 1.75 s 1.75 -0.783 1.75 -1.75 V 58.75 h 4.001 c 0.967 0 1.75 -0.783 1.75 -1.75 s -0.783 -1.75 -1.75 -1.75 h -4.001 v -4.801 h 7.032 c 0.967 0 1.75 -0.783 1.75 -1.75 S 66.795 46.949 65.828 46.949 z"
+                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            </g>
+          </svg>
+          Portfolio.pdf
+        </a>
+      <?php endif; ?>
+    </div>
   </div>
 </section>
 <style>
@@ -245,6 +305,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   /* Base Styles */
   .contact {
     display: flex;
+    user-select: none;
     padding: 0;
     width: 100vw;
     max-width: 1920px;
@@ -255,12 +316,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     display: flex;
     justify-content: center;
     padding: 1.8rem;
-    border: 2px solid white;
+    border: 1px solid var(--color-text-primary);
   }
 
   .contact-col:nth-child(3) {
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
     font-size: .7rem;
     flex: 6;
     width: 100%;
@@ -335,7 +396,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   .floating-label input:not(:placeholder-shown),
   .floating-label textarea:not(:placeholder-shown) {
     outline: none;
-    border-bottom-color: #3b82f6;
+    border-bottom-color: var(--color-accent-primary);
   }
 
   .floating-label input:focus+label,
@@ -344,7 +405,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   .floating-label textarea:not(:placeholder-shown)+label {
     top: -6px;
     font-size: .6rem;
-    color: #3b82f6;
+    color: var(--color-accent-primary);
   }
 
   .underline {
@@ -353,7 +414,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     left: 0;
     width: 0;
     height: 2px;
-    background: #3b82f6;
+    background: var(--color-accent-primary);
     transition: width 0.3s;
   }
 
@@ -628,6 +689,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     100% {
       transform: translate(-50%, -50%) scale(1);
     }
+  }
+
+  /* Folder Styles */
+  .portfolio {
+    width: 100%;
+  }
+
+  /* Folder Item Styles */
+  .folder-item {
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    position: relative;
   }
 </style>
 

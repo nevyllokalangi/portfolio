@@ -26,7 +26,7 @@
       </ul>
     </nav>
 
-    <section class="biography-timeline__section">
+    <div class="biography-timeline__section">
       <div class="biography-wrapper">
         <?php foreach ($groupedEntries as $year => $items): ?>
           <div class="biography-milestone" id="year-<?= htmlspecialchars($year) ?>">
@@ -36,7 +36,7 @@
                 <h3 class="biography-heading"><?= htmlspecialchars($item['heading']) ?></h3>
                 <p class="biography-desc"><?= nl2br(htmlspecialchars($item['description'])) ?></p>
                 <?php if (!empty($item['image_path'])): ?>
-                  <img class="biography-img" src="<?= htmlspecialchars($item['image_path']) ?>"
+                  <img draggable="false" class="biography-img" src="<?= htmlspecialchars($item['image_path']) ?>"
                     alt="<?= htmlspecialchars($item['heading']) ?>" loading="lazy" />
                 <?php endif; ?>
               </div>
@@ -44,19 +44,21 @@
           </div>
         <?php endforeach; ?>
       </div>
-    </section>
+    </div>
   </article>
 </section>
 
 <style>
   /* Biography Timeline */
   .biography-section {
-    padding-top: 100px;
+    width: 100%;
+    max-width: 1920px;
+    padding: 2rem 20vw;
   }
 
   .biography-timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
   }
@@ -65,11 +67,10 @@
     position: sticky;
     align-self: flex-start;
     top: 100px;
-    width: 200px;
+    width: 75px;
     flex-shrink: 0;
-    margin-right: 50px;
+    margin-right: 100px;
     height: calc(100vh - 200px);
-    overflow: hidden;
     padding: 20px 0;
   }
 
@@ -83,8 +84,7 @@
   .biography-timeline__nav li {
     padding: 8px;
     cursor: pointer;
-    color: var(--textSecondary);
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    color: var(--color-text-secondary);
     transition: all 0.3s ease-out;
     position: relative;
   }

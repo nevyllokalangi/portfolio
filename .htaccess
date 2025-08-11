@@ -22,7 +22,7 @@ RewriteRule ^admin/biography$ app/views/admin/biography.php
 RewriteRule ^admin/contact$ app/views/admin/contact.php
 RewriteRule ^admin/faq$ app/views/admin/faq.php
 RewriteRule ^admin/user$ app/views/admin/user.php
-RewriteRule ^admin/settings$ app/views/admin/settings.php
+RewriteRule ^admin/project$ app/views/admin/project.php
 
 Header always set X-Frame-Options "DENY"
 Header always set X-Content-Type-Options "nosniff"

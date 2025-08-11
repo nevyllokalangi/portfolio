@@ -185,11 +185,6 @@ $settings = get_settings($pdo);
                     <path
                       d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-287q5 0 10.5-1.5T501-453l283-177q8-5 12-12.5t4-16.5q0-20-17-30t-35 1L480-520 212-688q-18-11-35-.5T160-659q0 10 4 17.5t12 11.5l283 177q5 3 10.5 4.5T480-447Z" />
                   </svg> Messages</a></li>
-              <li><a href="/admin/settings"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
-                    width="24px" fill="#ffffe3">
-                    <path
-                      d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm112-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z" />
-                  </svg> Settings</a></li>
             </ul>
             <div class="profile-footer">
               <a href="/logout" class="logout-btn">Logout</a>
@@ -265,7 +260,7 @@ $settings = get_settings($pdo);
     align-items: center;
     width: 100%;
     height: 70px;
-    padding: 0 5%;
+    padding: 0 5vw;
     margin: 0 auto;
     transition: var(--transition);
     background-color: inherit;

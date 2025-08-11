@@ -29,7 +29,7 @@ function getCommonStyles()
     * {
         margin: 0;
         padding: 0;
-        font-family: "Poppins", sans-serif;
+        font-family: Poppins, sans-serif;
     }
 
     img,
@@ -137,16 +137,16 @@ function getAdminLayoutSpecific()
 {
   return <<<CSS
     .content {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        width: 100vw;
-        max-width: 1920px;
-        min-height: 100vh;
-        z-index: 10;
-        padding: 0 5%;
-        background-color: var(--color-bg-primary);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      top: -70px;
+      width: 100vw;
+      max-width: 1920px;
+      min-height: 100vh;
+      z-index: 10;
+      background-color: var(--color-bg-primary);   
     }
 
     /* Mobile/Tablet Restriction */
@@ -246,6 +246,11 @@ function getRegularLayoutSpecific()
       margin-bottom: 680px;
       z-index: 10;
       background-color: var(--color-bg-primary);
+  } 
+  section {
+    width: 100%;
+    max-width: 1920px;
+    padding: 2rem 20vw;
   }
   CSS;
 }

@@ -9,13 +9,9 @@ $pageJS = '/public/js/home.js';
 <?php ob_start(); ?>
 
 <style>
-  section {
-    padding: 5rem 10%;
-    position: relative;
-  }
-
   /* Base Styles */
   .hero {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;

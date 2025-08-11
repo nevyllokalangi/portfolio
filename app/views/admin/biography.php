@@ -194,10 +194,8 @@ ob_start();
 
 <style>
   .admin-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px 0;
-    position: relative;
+    width: 100vw;
+    padding: 20px 5vw;
   }
 
   .admin-header {

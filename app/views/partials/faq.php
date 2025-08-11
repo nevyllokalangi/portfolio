@@ -31,9 +31,6 @@
 
   .faq-accordion {
     list-style: none;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 0;
   }
 
   .faq-accordion li {
